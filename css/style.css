@@ -1152,7 +1152,15 @@ a.btn:focus{
 		margin-top: 30px;
 	}
 	
-
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul li {
+		list-style-type:none;
+		margin-bottom: 5px;
+	}
 
 	.box {
 		padding: 45px;
@@ -1173,5 +1181,15 @@ a.btn:focus{
 	
 	.intro-content {
 		padding:60px 0 0;
+	}
+	
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul li {
+		list-style-type:none;
+		margin-bottom: 5px;
 	}
 }
