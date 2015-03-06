@@ -1119,14 +1119,14 @@ a.btn:focus{
 		float: none;
 	}
 	
-	.img-responsive {
-		width: 75%;
-	}
-	
 	.intro .buttons a.btn {
 		margin: 5px;
 		margin-bottom: 20px;
 		padding: 10px 30px;
+	}
+	
+	.img-logo {
+		width: 75%;
 	}
 }
 
@@ -1197,10 +1197,13 @@ a.btn:focus{
 	}
 	
 	.img-responsive {
-		width: 75%;
 		margin-left: auto;
 		margin-right: auto;
 		float: none;
+	}
+	
+	.img-logo {
+		width: 75%;
 	}
 
 }
