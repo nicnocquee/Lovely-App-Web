@@ -870,10 +870,12 @@ footer .widget h5 {
 .sub-footer {
 	border-top: 1px solid #fafafa;
 	padding: 50px 0 20px;
+	color:#ccc;
+	background:#393939;
 }
 
 .sub-footer a{
-	color: #444;
+	color: #ccc;
 }
 
 footer .sub-footer  p {
@@ -883,6 +885,7 @@ footer .sub-footer  p {
 ul.social {
 	list-style: none;
 	padding-left: 0;
+	text-align:center;
 }
 ul.social li {
 	display: inline;
