@@ -1112,6 +1112,12 @@ a.btn:focus{
 		margin-top: 50px;
 		margin-bottom: 10px;
 	}
+	
+	.img-awesome-features {
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
 }
 
 @media (max-width:767px) {
