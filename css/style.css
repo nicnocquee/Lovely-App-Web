@@ -1118,6 +1118,16 @@ a.btn:focus{
 		margin-right: auto;
 		float: none;
 	}
+	
+	.img-responsive {
+		width: 75%;
+	}
+	
+	.intro .buttons a.btn {
+		margin: 5px;
+		margin-bottom: 20px;
+		padding: 10px 30px;
+	}
 }
 
 @media (max-width:767px) {
@@ -1184,6 +1194,13 @@ a.btn:focus{
 	
 	ul.social {
 		text-align: center;
+	}
+	
+	.img-responsive {
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
 	}
 
 }
