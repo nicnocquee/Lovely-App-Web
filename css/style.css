@@ -1128,6 +1128,11 @@ a.btn:focus{
 	.img-logo {
 		width: 75%;
 	}
+	
+	h1.intro {
+		line-height: 0.5em;
+		padding-top: 30px;
+	}
 }
 
 @media (max-width:767px) {
