@@ -7,7 +7,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
     color: #666;
     background: #fff;
 	font-size: 16px;
@@ -69,9 +69,35 @@ h5,
 h6 {
     margin: 0 0 40px;
     font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
 	color: #444;
 	line-height: 1.1em;
+}
+
+h1.intro {
+	font-weight: 600;
+	font-size: 64px;
+}
+
+h1.intro em {
+	font-size:  24px;
+	color: #5bc0de;
+	font-style: normal;
+}
+
+@media (max-width:480px) {
+	h1.intro em {
+		display: block;
+		line-height: 1.5em;
+	}
+}
+
+h2.intro {
+	font-weight:300;
+}
+
+.img-responsive {
+	float: right;
 }
 
 h1.h-xlight,h2.h-xlight,h3.h-xlight ,h4.h-xlight ,h5.h-xlight ,h6.h-xlight  {
@@ -580,6 +606,15 @@ hr.bold {
     padding-bottom: 0;
 }
 
+.home-section-screenshots {
+	background:#393939;
+	color:#ccc;
+}
+
+.home-section-screenshots h3{
+	color:#ccc;
+	font-weight: 600;
+}
 
 .section-heading h2 {
 	margin-bottom: 10px;
@@ -653,6 +688,7 @@ hr.bold {
 
 .intro-content {
 	padding:60px 0 60px;
+	background:#393939;
 }
 .intro-content.intro-nobg {
 	background:#fff;
@@ -685,6 +721,11 @@ hr.bold {
 
 .intro-content h2 {
 	margin-bottom: 10px;
+	color:#ccc;
+}
+
+.intro-content h1 {
+	color:#ccc;
 }
 
 /* ===================================
@@ -807,7 +848,9 @@ Elements
 	line-height: 1em;
 	padding-top: 10px;
 	vertical-align: middle;
+	font-weight: 400;
 }
+
 
 /* ===========================
 --- Footer
