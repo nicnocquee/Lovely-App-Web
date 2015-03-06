@@ -1098,7 +1098,7 @@ a.btn:focus{
 
 /* Media queries */
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 	.navbar-brand {
 		float: none;
 		display: block;
@@ -1132,6 +1132,10 @@ a.btn:focus{
 	h1.intro {
 		line-height: 0.5em;
 		padding-top: 30px;
+	}
+	
+	.footer-image {
+		width: 15%;
 	}
 }
 
@@ -1211,6 +1215,9 @@ a.btn:focus{
 		width: 75%;
 	}
 
+	.footer-image {
+		width: 15%;
+	}
 }
 
 @media (max-width:480px) {
@@ -1247,6 +1254,9 @@ a.btn:focus{
 		margin-bottom: 30px;
 	}
 		
+	.footer-image {
+		width: 25%;
+	}
 }
 
 @media (max-width:320px) {
