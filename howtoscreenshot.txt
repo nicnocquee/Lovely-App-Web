@@ -1,0 +1,1 @@
+phantomjs rasterize.js http://www.getlovelyapp.com lovely.png "1920px*3000px"
