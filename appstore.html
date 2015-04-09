@@ -1,9 +1,7 @@
 <html>
-<head>
-<meta http-equiv="refresh" content="2; url=https://itunes.apple.com/us/app/lovely-photos-management-gif/id970796506?mt=8&at=11lMiE" />
-</head>
 
 <body>
+
 <p>Redirecting to App Store ...</p>
 <p>If you're redirected automatically, follow this <a href="https://itunes.apple.com/us/app/lovely-photos-management-gif/id970796506?mt=8&at=11lMiE">link</a> to the App Store.</p>
 
@@ -14,8 +12,12 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-60129648-1', 'auto');
-  ga('send', 'pageview');
-
+  ga('send', 'pageview', {
+    'hitCallback': function() {
+      window.location = "https://itunes.apple.com/us/app/lovely-photos-management-gif/id970796506?mt=8&at=11lMiE";
+    }
+  });
+});
 </script>
 </body>
 </html>
