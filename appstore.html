@@ -15,11 +15,13 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 <script>
 ga('create', 'UA-60129648-1', 'auto');
-ga('send', 'pageview', {
-  'hitCallback': function() {
+var ref = window.location.search;
+ga('send', 'event', 'redirect', ref, {
+  'hitCallback': function(){
     window.location = "https://itunes.apple.com/us/app/lovely-photos-management-gif/id970796506?mt=8&at=11lMiE";
   }
 });
+
 </script>
 </body>
 </html>
